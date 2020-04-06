@@ -1,0 +1,119 @@
+body{
+  background-color:#F5F4F4;
+}
+
+header{
+  height:70px;
+  width:100%;
+  background-color:rgba(49,45, 45, 0.8);
+  position:fixed;
+  top:0;
+  z-index: 10;
+  color:#fff;
+}
+
+.header-left p{
+  float:left;
+  padding:10px 30px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.header-right{
+  float:right;
+  margin-right:60px;
+  margin-top:20px;
+}
+
+.login-btn{
+  background-color:#22BB7D;
+  padding:5px 12px;
+  color:#fff;
+  font-weight: bold;
+  border-radius: 10px;
+  display:inline-block;
+  opacity:0.8;
+}
+
+.login-btn:hover{
+  opacity:1;
+}
+
+.top-wrapper{
+  padding-top:190px;
+  padding-bottom:200px;
+  background-image: url("仁和寺トップ.jpg");
+  background-size:cover;
+  color:#fff;
+  text-align: center;
+}
+
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+
+.main-title{
+  font-size:30px;
+}
+
+.main-name{
+  padding-top:15px;
+  font-size:50px;
+}
+
+.post-page{
+height:1000px;
+width:980px;
+margin:0 auto;
+}
+
+.post-wrapper{
+ margin: 50px auto;
+ padding: 20px 50px;
+ width: 80%;
+ background-color: #fff;
+ border: 1px solid #fff;
+ border-radius: 15px;
+}
+
+.section-title{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+
+.post-section{
+text-align: center;
+padding-bottom: 10px;
+}
+
+.post-btn{
+  background-color:#22BB7D;
+  height:40px;
+  width:150px;
+  padding:2px 10px;
+  color:#fff;
+  font-size:18px;
+  font-weight: bold;
+  border-radius: 10px;
+  display:inline-block;
+  opacity:0.8;
+  text-align: center;
+  line-height: 40px;
+}
+
+.post-btn:hover{
+  opacity:1;
+}
+
+.area-wrapper{
+  margin: 50px auto;
+  padding: 200px 50px;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  text-align: left;
+}
